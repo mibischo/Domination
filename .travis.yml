@@ -7,6 +7,7 @@ before_script:
  - chmod +x gradlew
 before_install:
  - chmod +x gradlew
+ - cp -R ${ANDROID_HOME} ./android-sdk
 android:
   components:
     # Uncomment the lines below if you want to
