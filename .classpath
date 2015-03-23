@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="gen"/>
 	<classpathentry kind="src" path="res_android"/>
+	<classpathentry kind="src" path="src_lobbyserver"/>
+	<classpathentry kind="src" path="src_swing"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="src_android"/>
+	<classpathentry excluding="net/" kind="src" path="src_android"/>
 	<classpathentry kind="src" path="src_mapstore"/>
-	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/BrowserLauncher2-1_3.jar"/>
+	<classpathentry kind="lib" path="lib/Grasshopper.jar"/>
+	<classpathentry kind="lib" path="lib/jcommon-1.0.18.jar"/>
+	<classpathentry kind="lib" path="lib/jfreechart-1.0.15.jar"/>
+	<classpathentry kind="lib" path="lib/jnlp.jar"/>
+	<classpathentry kind="lib" path="lib/LobbyClient.jar"/>
+	<classpathentry kind="lib" path="lib/LobbyServer.jar"/>
+	<classpathentry kind="lib" path="lib/m3gbasic.jar"/>
+	<classpathentry kind="lib" path="lib/midletrunner.jar"/>
+	<classpathentry kind="lib" path="lib/SwingME.jar"/>
+	<classpathentry kind="lib" path="lib/TranslationTool.jar"/>
+	<classpathentry kind="lib" path="libs/achartengine-1.0.0.jar"/>
+	<classpathentry kind="lib" path="libs/gcm.jar"/>
+	<classpathentry kind="lib" path="libs/GoogleAdMobAdsSdk-6.4.1.jar"/>
+	<classpathentry kind="lib" path="libs/GrasshopperAndroid.jar"/>
+	<classpathentry kind="lib" path="libs/httpcore-4.1.2.jar"/>
+	<classpathentry kind="lib" path="libs/httpmime-4.1.2.jar"/>
+	<classpathentry kind="lib" path="libs/LobbyCore.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

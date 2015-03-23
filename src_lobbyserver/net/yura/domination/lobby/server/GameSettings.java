@@ -157,7 +157,7 @@ public class GameSettings implements GameSettingsMXBean {
         }
 
         // save a list of the file names into the GameType
-        GameLobby.getInstance().setGameOptions("Domination", gameOptions.toString());
+        //GameLobby.getInstance().setGameOptions("Domination", gameOptions.toString());
     }
 
     ServerRisk getServerGame(int id) {
